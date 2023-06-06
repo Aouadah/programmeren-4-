@@ -3,6 +3,7 @@ import {Resources} from "./resources.js";
 import {Button} from "./button.js";
 
 export class StartScreen extends Scene {
+
     onInitialize(engine) {
         console.log("start screen is created")
 

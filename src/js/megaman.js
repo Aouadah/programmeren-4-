@@ -13,10 +13,12 @@ export class Mega extends Actor {
 
     onInitialize(engine) {
         this.game = engine
+        this.graphics.use(Resources.Mega.toSprite())
     }
 
     shoot(){
         this.game.currentScene.addBullet(this.pos)
+        console.log("pew")
     }
 
     onPreUpdate(engine, delta) {
