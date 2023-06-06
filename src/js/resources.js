@@ -3,7 +3,6 @@ import megaImage from '../images/mega.png'
 import groundImage from '../images/groundpixel.png'
 import buttonImage from '../images/startbutton.png'
 import bulletImage from '../images/bullet.png'
-import blocksImage from '../images/blocks.png'
 import logoImage from '../images/logo.png'
 import flagImage from '../images/flag.png'
 import winImage from '../images/winText.png'
@@ -14,7 +13,6 @@ const Resources = {
     Ground: new ImageSource(groundImage),
     Button: new ImageSource(buttonImage),
     Bullet: new ImageSource(bulletImage),
-    Blocks: new ImageSource(blocksImage),
     Logo: new ImageSource(logoImage),
     Flag: new ImageSource(flagImage),
     Win: new ImageSource(winImage),
@@ -25,7 +23,6 @@ const ResourceLoader = new Loader([
     Resources.Ground,
     Resources.Button,
     Resources.Bullet,
-    Resources.Blocks,
     Resources.Logo,
     Resources.Flag,
     Resources.Win,

@@ -10,6 +10,8 @@ export class Game extends Engine {
     constructor() {
         super({ width: 800, height: 600 })
         this.start(ResourceLoader).then(() => this.startGame())
+        //this.showDebug(true)
+        //this.debug.transform.showAll = true
     }
 
     startGame() {

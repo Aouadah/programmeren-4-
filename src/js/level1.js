@@ -1,7 +1,6 @@
 import {Scene, Vector} from 'excalibur';
 import {Mega} from "./megaman.js";
 import {Ground} from "./ground.js";
-import {Blocks} from "./blocks.js";
 import {Flag} from "./flag.js";
 import {Bullet} from "./bullet.js";
 import {Enemy} from "./enemy.js";
@@ -17,11 +16,11 @@ export class Level1 extends Scene {
         mega.pos = new Vector(100, 150)
         this.add(mega)
 
-        const ground = new Ground()
-        ground.pos = new Vector(130, 600)
-        this.add(ground)
+        const floor = new Ground()
+        floor.pos = new Vector(130, 600)
+        this.add(floor)
 
-        const blocks = new Blocks()
+        const blocks = new Ground()
         blocks.pos = new Vector(770, 478)
         this.add(blocks)
 
